@@ -9,6 +9,7 @@ import (
 	_ "github.com/dunglas/frankenphp/caddy"
 	_ "github.com/dunglas/mercure/caddy"
 	_ "github.com/dunglas/vulcain/caddy"
+	_ "github.com/caddy-dns/cloudflare"
 )
 
 func main() {
